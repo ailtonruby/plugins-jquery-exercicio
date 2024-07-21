@@ -43,11 +43,6 @@ $('form').validate({
             requerido: true,
             cpf: true
         },
-
-        messages: {
-            nome: 'Por favor insira o seu nome'
-        },
-
     },
     submitHandler: function (form) {
         console.log(form)
